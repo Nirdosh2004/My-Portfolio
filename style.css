@@ -14,25 +14,28 @@ body{
 }
 
 header{
-  margin: 1rem;
+  margin: 0rem 1rem;
   display: flex;
+  flex-direction: column;
   color: #fafafa;
   align-items: center;
-  justify-content: end;
+  justify-content: start;
   position: fixed;
-  top: 0;
-  width: 96%;
+ 
  
 }
 .nav-bar{
           
           display: flex;
-          gap: 45px;
+          flex-direction: column;
+          gap: 25px;
           background: #1E1E1F;
           border: 1.5px solid #383838;
-          border-radius: 0px 25px 0 25px;
-          height: 3rem;
-          padding: 2rem;
+          border-radius: 20px;
+          height: 20rem;
+          align-items: center;
+          justify-content: center;
+          padding: 1rem 2rem 1rem 2rem;
 }
 .nav-bar a .home{
           color: #E5C567;
@@ -56,13 +59,29 @@ header{
           transition: 0.3s;
           /* backdrop-filter: blur(10px); */
 }
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+  [[[[[[[[[[[[[[[[[[[[[[
+    {{{{{{{{{{{{
+      {{{{{{{{{{{{{
+        {{{{{{{{{{{{{{{{
+          {{{{{{{{{{{{
+            Hero section 
+          }}}}}}}}}}}}
+        }}}}}}}}}}}}}}}}
+      }}}}}}}}}}}}}
+    }}}}}}}}}}}}
+  ]]]]]]]]]]]]]]]]]]]]]]
+}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
 .hero-section{
-          margin: 20vh 0 0 15vw;
+          margin: 10vh 0 0 15vw;
           background: #1E1E1F;
           border-radius: 15px;
           border: 1.7px solid #383838;
-          height: 70vh;
+          height: auto;
           width: 70%;
+          padding: 1rem;
           
 }
 .hero-section h4{
@@ -208,4 +227,377 @@ header{
 .hero-section .bottom img:hover{
           opacity: 1;
           cursor: pointer;
+}
+
+
+/* {{{{{{{{{{{{{{{{
+  {{{{{{{{{
+  }}}}}}}}}}}
+  {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+  {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+((((((((((((((((((((((((((((((((((((((((((((((((
+    {{{{{{{
+      About section 
+    }}}}}}}
+  }}}}}}}}
+  }}}}}}}}}
+}}}}}}}}}}}}}}}} */
+
+
+.about-section{
+  margin: 10vh 0 0 15vw;
+  background: #1E1E1F;
+  border-radius: 15px;
+  border: 1.7px solid #383838;
+  height: auto;
+  width: 70%;
+  padding: 2rem;
+  
+}
+.about-section .heading{
+  height: 10vh;
+  width: auto;
+  
+}
+.about-section .heading h1{
+  color: #fafafa;
+  font-size: 6vh;
+  font-weight: 600;
+  border-bottom: 2px solid #E5C567;
+}
+.about-section .paragraph{
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  color:#dcdcdc;
+  opacity: .9;
+  font-weight: 400;
+  margin-top: 3vh;
+  font-size: 2.6vh;
+}
+.about-section .what-doing{
+  margin-top: 5vh;
+
+}
+.about-section .what-doing .heading{
+  color: #fafafa;
+  font-weight: 600;
+  font-size: 2vw;
+}
+.about-section .what-doing .upper{
+  display: flex;
+  gap: 1vw;
+}
+.about-section .what-doing .upper .one{
+  height: 20vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 1.4vw;
+  gap: 1rem;
+  background: #222224;
+  border-radius: 15px;
+  border-top: 1px solid #777778;
+  border-left: 1px solid #777778;
+}
+.about-section .what-doing .upper .one img{
+  height: 40px;
+  width: auto;
+  margin-top: 7px;
+}
+.about-section .what-doing .upper .one .right h1{
+  color: #fafafa;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+.about-section .what-doing .upper .one .right p{
+  color: #fafafa;
+  font-size: 1.1vw;
+  color: #dcdcdc;
+  margin-top: 1vh;
+  /* font-weight: 00; */
+}
+.about-section .what-doing .upper .two{
+  height: 20vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 1.4vw;
+  gap: 1rem;
+  background: #222224;
+  border-radius: 15px;
+  border-top: 1px solid #777778;
+  border-left: 1px solid #777778;
+}
+.about-section .what-doing .upper .two img{
+  height: 40px;
+  width: auto;
+  margin-top: 7px;
+}
+.about-section .what-doing .upper .two .right h1{
+  color: #fafafa;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+.about-section .what-doing .upper .two .right p{
+  color: #fafafa;
+  font-size: 1.1vw;
+  color: #dcdcdc;
+  margin-top: 1vh;
+  /* font-weight: 00; */
+}
+ 
+
+/* ///// */
+
+.about-section .what-doing .bottom{
+  display: flex;
+  gap: 1vw;
+  margin-top: 1vw;
+}
+.about-section .what-doing .bottom .one{
+  height: 20vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 1.4vw;
+  gap: 1rem;
+  background: #222224;
+  border-radius: 15px;
+  border-top: 1px solid #777778;
+  border-left: 1px solid #777778;
+}
+.about-section .what-doing .bottom .one img{
+  height: 40px;
+  width: auto;
+  margin-top: 7px;
+}
+.about-section .what-doing .bottom .one .right h1{
+  color: #fafafa;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+.about-section .what-doing .bottom .one .right p{
+  color: #fafafa;
+  font-size: 1.1vw;
+  color: #dcdcdc;
+  margin-top: 1vh;
+  /* font-weight: 00; */
+}
+.about-section .what-doing .bottom .two{
+  height: 20vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 1.4vw;
+  gap: 1rem;
+  background: #222224;
+  border-radius: 15px;
+  border-top: 1px solid #777778;
+  border-left: 1px solid #777778;
+}
+.about-section .what-doing .bottom .two img{
+  height: 40px;
+  width: auto;
+  margin-top: 7px;
+}
+.about-section .what-doing .bottom .two .right h1{
+  color: #fafafa;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+.about-section .what-doing .bottom .two .right p{
+  color: #fafafa;
+  font-size: 1.1vw;
+  color: #dcdcdc;
+  margin-top: 1vh;
+  /* font-weight: 00; */
+}
+
+
+/* {{{{{{{{{{{{{{{{
+  {{{{{{{{{
+  }}}}}}}}}}}
+  {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+  {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+((((((((((((((((((((((((((((((((((((((((((((((((
+    {{{{{{{
+      Resume section 
+    }}}}}}}
+  }}}}}}}}
+  }}}}}}}}}
+}}}}}}}}}}}}}}}} */
+
+
+.resume-section{
+  margin: 10vh 0 0 15vw;
+  background: #1E1E1F;
+  border-radius: 15px;
+  border: 1.7px solid #383838;
+  height: auto;
+  width: 70%;
+  padding: 2rem;
+}
+.resume-section .heading{
+  color: #fafafa;
+  font-size: 6vh;
+  font-weight: 600;
+  border-bottom: 2px solid #E5C567;
+}
+.resume-section .head{
+  display: flex;
+  margin-top: 6vh;
+  gap: 1vw;
+}
+.resume-section .head img{
+  height: 40px;
+  background: #383838;
+  border: 1px solid #777778;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resume-section .head h2{
+  color: #fafafa;
+  font: 1.5vw;
+  font-weight: 500;
+}
+.resume-section .content{
+  padding: 2vw;
+}
+.resume-section .content  .school h4{
+  color: #fafafa;
+  margin-bottom: .6vw;
+}
+.resume-section .content  .school h6{
+  color: #E5C567;
+  font-size: 1vw;
+  font-weight: 500;
+  margin-bottom: .4vw;
+}
+.resume-section .content  .school p{
+  color: #777778;
+  margin-bottom: 3vw;
+}
+.resume-section .download-resume{
+  text-decoration: none;
+  color: #222224;
+  padding: 1vw;
+  border-radius: 10px;
+  font-weight: 600;
+  border: 1px solid #fafafa;
+  background: #E5C567;
+  margin-left: 5vh;
+}
+.resume-section a:hover{
+  /* transform: scale(1.05);
+  transition: 0.3s; */
+  
+}
+
+/* {{{{{{{{{{{{{{{{{{{
+  {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+    """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+    {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+      ))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+      [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+        Projects section 
+      ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+    }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}"
+  }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+}}}}}}}}}}}}}}}}}}} */
+
+.project-section{
+  margin: 10vh 0 0 15vw;
+  background: #1E1E1F;
+  border-radius: 15px;
+  border: 1.7px solid #383838;
+  height: auto;
+  width: 70%;
+  padding: 2rem;
+}
+.project-section .heading{
+  color: #fafafa;
+  font-size: 5vh;
+  font-weight: 600;
+  border-bottom: 2px solid #E5C567;
+}
+.project-section .buttons {
+  margin-top: 3vh;
+  display: flex;
+  gap: 2.3vw;
+  /* position: relative; */
+}
+.project-section .buttons a{
+  color: #dcdcdc;
+  text-decoration: none;
+}
+.project-section .buttons .ai{
+  color: #E5C567;
+}
+.project-section .buttons a:hover{
+  color: #777778;
+  transition: 0.3s;
+  transform: scale(1.05);
+
+}
+.project-section .cards{
+  display: flex;
+  margin-top: 2vw;
+  gap: 2vw;
+  justify-content: space-around;
+}
+.project-section .card:hover{
+  opacity: .7;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: .3s;
+}
+.project-section .cards2{
+  display: flex;
+  margin-top: 2vw;
+  gap: 2vw;
+  justify-content: space-around;
+}
+.project-section .cards3{
+  display: flex;
+  margin-top: 2vw;
+  /* gap: 2vw; */
+  justify-content: space-evenly;
+}
+.project-section .card{
+  width: 20vw;
+  height: auto;
+  margin-top: 3vh;
+  /* background: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+.project-section .card img{
+  height: 30vh;
+  width: auto;
+  border-radius: 10px;
+  display: flex;
+}
+.project-section .card h4{
+  color: #fafafa;
+  font-weight: 400;
+  font-size: 1.1vw;
+  margin-left: .5vw;
+  margin-top: .2vh;
+}
+.project-section .card p{
+  color:#dcdcdc;
+  font-weight: 200;
+  
+  /* font-size: .8vw; */
+  margin-left: .3vw;
 }
