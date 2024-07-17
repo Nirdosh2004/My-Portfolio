@@ -10,7 +10,8 @@ html,
 body{
           height: 100%;
           width: 100%;
-          background: #121212;
+          /* background: #121212; */
+          background: #fafafa;
           scroll-behavior: smooth;
 }
 *::selection{
