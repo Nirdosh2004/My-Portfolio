@@ -1016,6 +1016,26 @@ font-size: 1vw;
   animation-timeline: view();
   animation-range: entry 0% cover 20%;
 }
+.resume-section{
+  animation: CSSscrollReveal ease-in-out both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+.project-section{
+  animation: CSSscrollReveal ease-in-out both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+.skills{
+  animation: CSSscrollReveal ease-in-out both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+.contact-section{
+  animation: CSSscrollReveal ease-in-out both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
 @keyframes CSSscrollReveal {
   from{
     opacity: 0;
