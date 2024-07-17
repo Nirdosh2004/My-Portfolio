@@ -11,6 +11,11 @@ body{
           height: 100%;
           width: 100%;
           background: #121212;
+          scroll-behavior: smooth;
+}
+*::selection{
+  background: #E5C567;
+  color: #121212;
 }
 
 header{
@@ -53,12 +58,14 @@ header{
           color: #E5C567;
 }
 .nav-bar a:hover{
-          /* opacity: .8; */
-          color: #E5C567;
-          transform: scale(1.1);
-          transition: 0.3s;
-          /* backdrop-filter: blur(10px); */
+  /* background-color: #2d6034; */
+  -webkit-transform: rotate(-9deg);
+  -moz-transform: rotate(-9deg);
+  -ms-transform: rotate(-9deg);
+  -o-transform: rotate(-9deg);
+  transform: rotate(-9deg);
 }
+
 
 /* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
   [[[[[[[[[[[[[[[[[[[[[[
@@ -75,15 +82,15 @@ header{
 }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
 
 .hero-section{
-          margin: 10vh 0 0 15vw;
+          margin: 4vh 0 0 15vw;
           background: #1E1E1F;
           border-radius: 15px;
           border: 1.7px solid #383838;
           height: auto;
           width: 70%;
           padding: 1rem;
-          
 }
+
 .hero-section h4{
           display: flex;
           justify-content: end;
@@ -116,8 +123,8 @@ header{
 }
 .hero-section .upper .texts h1{
           color: #fafafa;
-          font-size: 2.4vw;
-          font-weight: 500;
+          font-size: 3vw;
+          font-weight: 600;
 }
 .hero-section .upper .texts h1::selection{
           color: #121212;
@@ -487,17 +494,17 @@ header{
 }
 .resume-section .download-resume{
   text-decoration: none;
-  color: #222224;
+  color: #E5C567;
   padding: 1vw;
   border-radius: 10px;
   font-weight: 600;
-  border: 1px solid #fafafa;
-  background: #E5C567;
+  border: 1px solid #E5C567;
+  background: none;
   margin-left: 5vh;
 }
 .resume-section a:hover{
-  /* transform: scale(1.05);
-  transition: 0.3s; */
+  background: #E5C567;
+  color: #121212;
   
 }
 
@@ -600,4 +607,422 @@ header{
   
   /* font-size: .8vw; */
   margin-left: .3vw;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+  [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+    {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+      {{{{{{{{{{{{{{{{{{{{{{{{{{
+        skills section 
+      }}}}}}}}}}}}}}}}}}}}}}}}}}
+    }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+  ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+.skills{
+  margin: 10vh 0 0 15vw;
+  background: #1E1E1F;
+  border-radius: 15px;
+  border: 1px solid #383838;
+  height: auto;
+  width: 70%;
+  padding: 2rem;
+  /* box-shadow:  0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22); */
+}
+.skills .heading{
+  color: #fafafa;
+  font-size: 5vh;
+  font-weight: 600;
+  border-bottom: .5px solid #777778;
+  margin-bottom: 12vh;
+}
+.skills li{
+  margin: 20px 0;
+  padding: 10px;
+  list-style: none;
+  padding: 0 5vw;
+}
+.skills li h3{
+  color: #dcdcdc;
+  font-size: 1vw;
+}
+.bar{
+  background: none;
+  display: block;
+  height: 10px;
+  border: 1px solid #383838;
+  border-radius: 10px;
+  overflow: hidden;
+  /* box-shadow:  0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24); */
+  transition: all 0.3s cubic-bezier(0.25,.8,.25,1);
+}
+.bar:hover{
+  /* box-shadow:  0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22); */
+  transform: scale(1.05);
+  transition: .3s;
+
+}
+.bar span{
+  height: 15px;
+  float: left;
+  /* background: linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%); */
+  background: #E5C567;
+}
+.html{
+  width: 90%;
+  animation: html 6s;
+  color: #fafafa;
+}
+.css{
+  width: 80%;
+  animation: css 6s;
+}
+.javascript{
+  width: 60%;
+  animation: javascript 4s;
+}
+.cpp{
+  width: 90%;
+  animation: cpp 3s;
+}
+@keyframes cpp{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+.django{
+  width: 60%;
+  animation: django 4s;
+}
+@keyframes django{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+.reactjs{
+  width: 50%;
+  animation: reactjs 5s;
+}
+@keyframes reactjs{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+.typescript{
+  width: 40%;
+  animation: typescript 4s;
+}
+@keyframes typescript{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 40%;
+  }
+}
+.tailwind{
+  width: 40%;
+  animation: tailwind 5s;
+}
+@keyframes tailwind{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 40%;
+  }
+}
+@keyframes html{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes css{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes javascript{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+.python{
+  width: 90%;
+  animation: python 5s;
+}
+@keyframes python{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+.numpy{
+  width: 60%;
+  animation: numpy 5s;
+}
+@keyframes numpy{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+.mysql{
+  width: 64%;
+  animation: mysql 6s;
+}
+@keyframes mysql{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 64%;
+  }
+}
+.docker{
+  width: 55%;
+  animation: docker 4s;
+}
+@keyframes docker{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 55%;
+  }
+}
+.c{
+  width: 97%;
+  animation: c 7s;
+}
+@keyframes c{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 97%;
+  }
+}
+.pandas{
+  width: 57%;
+  animation: pandas 7s;
+}
+@keyframes pandas{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 57%;
+  }
+}
+.metplotlip{
+  width: 47%;
+  animation: metplotlip 4s;
+}
+@keyframes metplotlip{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 47%;
+  }
+}
+.pytorch{
+  width: 77%;
+  animation: pytorch 6s;
+}
+@keyframes pytorch{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 77%;
+  }
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+  [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+    {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+      {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+        Contact section 
+      }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+    }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+  ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+.contact-section{
+  margin: 10vh 0 0 15vw;
+  background: #1E1E1F;
+  border-radius: 15px;
+  border: 1.7px solid #383838;
+  height: auto;
+  width: 70%;
+  padding: 2rem;
+}
+.contact-section .heading{
+  color: #fafafa;
+  font-size: 5vh;
+  font-weight: 600;
+  border-bottom: 2px solid #E5C567;
+}
+.contact-section .forms{
+  padding: 1vw;
+  margin-top: 5vh;
+}
+.contact-section .forms .message{
+  margin-top: 5vh;
+}
+.contact-section .forms .name{
+  display: flex;
+  height: 6vh;
+  gap: 2vw;
+}
+.contact-section .forms .name input{
+  height: 6vh;
+  display: flex;
+  color: #fafafa;
+position: relative;
+text-align: start;
+padding-left: 1vw;
+padding: 2vw;
+font-size: 1.1vw;
+border-radius: 10px;
+font-weight: 500;
+}
+
+.contact-section .forms input{
+  border: 1px solid #383838;
+  background: none;
+  padding-left: 1vw;
+  padding-right: 25vw;
+  padding-bottom:15vh ;
+  padding-top: 1vw;
+  border-radius: 10px;
+  color: #fafafa;
+}
+.contact-section .forms input:hover{
+  transform: scale(1.1);
+  transition: .3s;
+  border-color: #E5C567;
+}
+.contact-section button{
+  margin-top: 3vh;
+  height: 6vh;
+  width: 8vw;
+  background: none;
+  border: 1px solid #E5C567;
+  color: #E5C567;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-left:55vw;
+}
+.contact-section button:hover{
+  transform: scale(1.2);
+  transition: .5s;
+  background: #E5C567;
+  color: #121212;
+  font-weight: 600;
+}
+.contact-section .social-media{
+  margin-top: 4vh;
+  display: flex;
+  gap: 1vw;
+  margin-left: 1vw;
+}
+/* .contact-section .social-media h4{
+color: #fafafa;
+font-weight: 600;
+font-size: 1vw;
+} */
+.contact-section .social-media a{
+  background: #222224;
+  padding: 1vw;
+  border-radius: 10px;
+  margin-bottom: 8vh;
+}
+.contact-section .social-media a:hover{
+  transform: scale(1.2);
+  transition: .3s;
+  background: #121212;
+}
+.contact-section .social-media a img{
+  height: 20px;
+}
+.contact-section .footer{
+  border-top: 1px solid #383838;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1vw;
+}
+
+.contact-section .footer p{
+  color: #777778;
+}
+.contact-section .footer .name:hover{
+  color: #E5C567;
+  transition: 0.3s;
+}
+
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}]
+{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+  (((((((((((((((((((((((((((((
+    animation 
+  )))))))))))))))))))))))))))))
+}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+ h1,
+ h2,h3,h4,h5,h6{
+  animation: CSSscrollReveal ease-in-out both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 40%;
+}
+ 
+ span{
+  animation: CSSscrollReveal ease-in-out both;
+  animation-timeline: view();
+  animation-range: entry 30% cover 50%;
+}
+.hero-section{
+  animation: none;
+}
+.about-section{
+  animation: CSSscrollReveal ease-in-out both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+@keyframes CSSscrollReveal {
+  from{
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

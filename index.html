@@ -5,6 +5,10 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <title>Portfolio | Nirdosh</title>
           <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+          <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+                    rel="stylesheet" />
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> 
 </head>
 <body>
  <header>    
@@ -13,8 +17,8 @@
        <a href="#about">About</a>
        <a href="#resume-sec">Resume</a>
        <a href="#projects">Projects</a>
-       <a href="">Skills</a>
-       <a href="">Contact</a>
+       <a href="#skill">Skills</a>
+       <a href="#contact" >Contact</a> 
     </ul>
  </header>
  <div id="hero" class="hero-section">
@@ -230,9 +234,90 @@
           </div>
      </div>
  </div>  
-
-
-
-          <script src="script.js"></script>
+ <div id="skill" class="skills">
+     <h1 class="heading">My skills</h1>
+     <li><h3>C++</h3>
+          <span class="bar"><span class="cpp"></span></span>
+          </li>
+          <li><h3>Python</h3>
+               <span class="bar"><span class="python"></span></span>
+               </li>
+               <li><h3>NumPY</h3>
+                    <span class="bar"><span class="numpy"></span></span>
+                    </li>
+                    <li><h3>Pandas</h3>
+                         <span class="bar"><span class="pandas"></span></span>
+                         </li>
+                         <li><h3>Django</h3>
+                              <span class="bar"><span class="django"></span></span>
+                              </li>
+                         <li><h3>Metplotlip</h3>
+                              <span class="bar"><span class="metplotlip"></span></span>
+                              </li>
+                              <li><h3>PyTorch</h3>
+                                   <span class="bar"><span class="pytorch"></span></span>
+                                   </li>
+                    <li><h3>MySQL</h3>
+                         <span class="bar"><span class="mysql"></span></span>
+                         </li>
+                         <li><h3>Docker</h3>
+                              <span class="bar"><span class="docker"></span></span>
+                              </li>
+      <li><h3>Javascript</h3>
+               <span class="bar"><span class="javascript"></span></span>
+               </li>
+     
+     <li><h3>React.JS</h3>
+                         <span class="bar"><span class="reactjs"></span></span>
+     </li>
+     <li><h3>TypeScript</h3>
+          <span class="bar"><span class="typescript"></span></span>
+          </li>
+          <li><h3>Tailwind CSS</h3>
+               <span class="bar"><span class="tailwind"></span></span>
+               </li>
+               <li><h3>HTML</h3>
+                    <span class="bar"><span class="html"></span></span>
+                    </li>
+                    <li><h3>CSS</h3>
+                         <span class="bar"><span class="css"></span></span>
+                         </li>
+              
+                                   <li><h3>C</h3>
+                                        <span class="bar"><span class="c"></span></span>
+                                        </li>
+ </div>
+ <div id="contact" class="contact-section">
+     <h1 class="heading">Get in Touch</h1>
+     <div class="forms">
+          <div class="name">
+               <input type="text" required placeholder="Full name">
+               <input type="email" required placeholder="Email address">
+          </div>
+          <input class="message" type="text" placeholder="Your message">
+     </div>
+     <button class="submit">Submit</button>
+     <div class="social-media">
+          <a href="https://www.linkedin.com/in/nirdosh-kushwaha-b37629299/"><img src="images/linkedin-icon.svg" alt=""></a>
+          <a href="https://github.com/Nirdosh2004"><img src="images/github.svg" alt=""></a>
+          <a href=""><img src="images/instagram.svg" alt=""></a>
+          <a href=""><img src="images/twitter-icon.svg" alt=""></a>
+          <a href=""><img src="images/facebook.svg" alt=""></a>
+     </div>
+     <div class="footer">
+          <p> Copyright &#169; 2024. All Rights Reserved  </p>
+          <p class="name"> Nirdosh Kushwaha </p>
+     </div>
+ </div>
+ <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+ <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+ <script>
+     var cursor = new MouseFollower();
+ </script>
+      <script src="script.js"></script>
 </body>
 </html>
