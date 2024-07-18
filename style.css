@@ -582,11 +582,12 @@ nav bar
   transform: scale(1.1);
   transition: .3s;
 }
-.project-section .content-container .one h3{
+.project-section .content-container .one a{
   color: #E5C567;
-  font-weight: 500;
-  font-size: 1.2vw;
+  font-weight: 400;
+  font-size: 1.5vw;
   margin-left: .5vw;
+
 }
 .project-section .content-container .one p{
   color: #fafafa;
