@@ -1,0 +1,562 @@
+@media (max-width:1000px){
+          .top{
+                    position: fixed; 
+                     top: 0; 
+                     width: 100%; 
+                     z-index: 999;
+          }
+          .top .tags{
+                    padding: 1vw;
+          }
+          .top .tags a{
+                    font-size: 1.3vw;
+                    font-weight: 500;
+          }
+          .hero-section h4{
+                    font-size: 1.3vw; 
+          }
+          .hero-section .upper .texts button{
+                    font-size: 1.2vw;
+                    font-weight: 400;
+          }
+          .hero-section .middle .up .one .img-container{
+                    height: 7vh;
+                    width: 4vw;
+          }
+          .hero-section .middle .up .one .img-container img{
+                    height: 2.2vw;
+                    width: auto;
+          }
+          .hero-section .middle .down .one .img-container{
+                    height: 7vh;
+                    width: 4vw;
+          }
+          .hero-section .middle .down .one .img-container img{
+                    height: 2.2vw;
+                    width: auto;
+          }
+          .hero-section .middle .up .one .text p{
+                    color: #777778;
+                    font-size: 1.3vw;
+                    font-weight: 445;
+          }
+          .hero-section .middle .up .one .text h5{
+                    color: #fafafa;
+                    font-size: 1.3vw;
+                    font-weight: 445;
+          }
+          .hero-section .middle .down .one .text p{
+                    color: #777778;
+                    font-size: 1.3vw;
+                    font-weight: 445;
+          }
+          .hero-section .middle .down .one .text h5{
+                    color: #fafafa;
+                    font-size: 1.3vw;
+                    font-weight: 445;
+          }
+
+}
+@media (max-width:760px){
+          .top{
+                    position: fixed; 
+                     top: 0; 
+                     width: 100%; 
+                     z-index: 999;
+          }
+          .top .tags{
+                    padding: 1vw;
+                    gap: 3vw;
+          }
+          .top .tags a{
+                    font-size: 1.6vw;
+                    font-weight: 500;
+          }
+          .hero-section .upper .img-container{
+                    height: 25vh;
+                    border-radius: 30px;
+          }
+          .hero-section .upper .texts h1{
+                    font-size:4vw;
+          }
+          .hero-section h4{
+                    font-size: 1.7vw; 
+          }
+          .hero-section .upper .texts button{
+                    font-size: 1.9vw;
+                    font-weight: 400;
+          }
+          .hero-section .middle .up{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.5vw;
+          }
+          .hero-section .middle .down{
+                    margin-top: -2.5vw;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.5vw;
+          }
+          .hero-section .middle .up .one .img-container{
+                    height: 8vh;
+                    width: 6vw;
+          }
+          .hero-section .middle .up .one .img-container img{
+                    height: 2.8vw;
+                    width: auto;
+          }
+          .hero-section .middle .down .one .img-container{
+                    height: 8vh;
+                    width: 6vw;
+          }
+          .hero-section .middle .down .one .img-container img{
+                    height: 2.8vw;
+                    width: auto;
+          }
+          .hero-section .middle .up .one .text p{
+                    color: #777778;
+                    font-size: 1.7vw;
+                    font-weight: 445;
+          }
+          .hero-section .middle .up .one .text h5{
+                    color: #fafafa;
+                    font-size: 1.8vw;
+                    font-weight: 445;
+          }
+          .hero-section .middle .down .one .text p{
+                    color: #777778;
+                    font-size: 1.7vw;
+                    font-weight: 445;
+          }
+          .hero-section .middle .down .one .text h5{
+                    color: #fafafa;
+                    font-size: 1.8vw;
+                    font-weight: 445;
+          }
+          .about-section .what-doing .heading{
+                    font-size: 2.3vw;
+                  }
+          .about-section .what-doing .upper{
+                    display: flex;
+                    flex-direction: column;
+          }
+          .about-section .what-doing .upper .one{
+                    height: auto;
+                    width: auto;
+                    padding: 1.4vw;
+                    display: flex;
+                    justify-content: center;
+          }
+          .about-section .what-doing .upper .one img{
+                    height: 45px;
+                  }
+                  .about-section .what-doing .upper .one .right h1{
+                    font-size: 2.2vw;
+                  }
+                  .about-section .what-doing .upper .one .right p{
+                    font-size: 2vw;
+                  }
+                  .about-section .what-doing .upper .two{
+                    height: auto;
+                    width: auto;
+                    padding: 1.4vw;
+                    display: flex;
+                    justify-content: center;
+          }
+          .about-section .what-doing .upper .two img{
+                    height: 45px;
+                  }
+                  .about-section .what-doing .upper .two .right h1{
+                    font-size: 2.2vw;
+                  }
+                  .about-section .what-doing .upper .two .right p{
+                    font-size: 2vw;
+                  }
+                    /* {{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}} */
+
+                    .about-section .what-doing .bottom{
+                              display: flex;
+                              flex-direction: column;
+                    }
+                    .about-section .what-doing .bottom .one{
+                              height: auto;
+                              width: auto;
+                              padding: 1.4vw;
+                              display: flex;
+                              justify-content: center;
+                    }
+                    .about-section .what-doing .bottom .one img{
+                              height: 45px;
+                            }
+                            .about-section .what-doing .bottom .one .right h1{
+                              font-size: 2.2vw;
+                            }
+                            .about-section .what-doing .bottom .one .right p{
+                              font-size: 2vw;
+                            }
+                            .about-section .what-doing .bottom .two{
+                              height: auto;
+                              width: auto;
+                              padding: 1.4vw;
+                              display: flex;
+                              justify-content: center;
+                    }
+                    .about-section .what-doing .bottom .two img{
+                              height: 45px;
+                            }
+                            .about-section .what-doing .bottom .two .right h1{
+                              font-size: 2.2vw;
+                            }
+                            .about-section .what-doing .bottom .two .right p{
+                              font-size: 2vw;
+                            }
+                            .resume-section .content  .school h6{
+                              font-size: 1.3vw;
+                            }
+                            .project-section .buttons a{
+                              font-size: 1.3vw;
+                            }
+                            .project-section .content-container .one h3{
+                              font-size: 1.7vw;
+                            }
+                            .project-section .content-container .one p{
+                              font-size: 1.3vw;
+                            }
+                            .skills li h3{
+                              font-size: 1.8vw;
+                            }
+                            .contact-section .forms .name{
+                              display: flex;
+                              flex-direction: column;
+                            }
+                            .contact-section .forms .message{
+                              margin-top: 15vh;
+                            }
+                            .contact-section button{
+                              height: 6vh;
+                              width: 12vw;
+                              margin-left: 2vw;
+                            }
+                            .contact-section .social-media{
+                              margin-top: 8vh;
+                            }
+                            .contact-section .social-media a img{
+                              height: 10px;
+                            }
+                            .contact-section .social-media a{
+                              padding: 1.3vw;
+                            }
+                            .contact-section .footer p{
+                              font-size: 1.1vw;
+                            }
+                            .contact-section .footer .name{
+                              font-size: 1.4vw;
+                            }
+                           
+}
+@media (max-width:600px){
+          .top{
+                    position: fixed; 
+                     top: 0; 
+                     width: 85%; 
+                     z-index: 999;
+                     display: flex;
+                     justify-content: center;
+                     /* background: #777778 ; */
+          }
+          .top .tags{
+                    padding: 1vw;
+                    gap: 3vw;
+          }
+          .top .tags a{
+                    font-size: 2.4vw;
+                    font-weight: 500;
+          }
+          .hero-section{
+                    transition: .5s;
+                    margin: .1vw;
+                    margin-top: 10vw;
+                    height: auto;
+                    width: 90%;
+                    /* padding: 1rem; */
+           }
+          .hero-section .upper .img-container{
+                    height: 20vh;
+                    border-radius: 30px;
+          }
+          .hero-section .upper .texts h1{
+                    font-size:5vw;
+          }
+          .hero-section h4{
+                    font-size: 2vw; 
+          }
+          .hero-section .upper .texts button{
+                    font-size: 2vw;
+                    font-weight: 400;
+          }
+          .hero-section .middle .up{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.5vw;
+          }
+          .hero-section .middle .down{
+                    margin-top: -2.5vw;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.5vw;
+          }
+          .hero-section .middle .up .one .img-container{
+                    height: 8vh;
+                    width: 7vw;
+          }
+          .hero-section .middle .up .one .img-container img{
+                    height: 3vw;
+                    width: auto;
+          }
+          .hero-section .middle .down .one .img-container{
+                    height: 8vh;
+                    width: 7vw;
+          }
+          .hero-section .middle .down .one .img-container img{
+                    height: 3vw;
+                    width: auto;
+          }
+          .hero-section .middle .up .one .text p{
+                    color: #777778;
+                    font-size: 2vw;
+                    font-weight: 445;
+          }
+          .hero-section .middle .up .one .text h5{
+                    color: #fafafa;
+                    font-size: 2vw;
+                    font-weight: 445;
+          }
+          .hero-section .middle .down .one .text p{
+                    color: #777778;
+                    font-size: 2vw;
+                    font-weight: 445;
+          }
+          .hero-section .middle .down .one .text h5{
+                    color: #fafafa;
+                    font-size: 2vw;
+                    font-weight: 445;
+          }
+          .about-section{
+                    transition: .5s;
+                    margin: .1vw;
+                    margin-top: 10vw;
+                    height: auto;
+                    width: 90%;
+          }
+          .about-section .what-doing .heading{
+                    font-size: 3vw;
+                  }
+          .about-section .what-doing .upper{
+                    display: flex;
+                    flex-direction: column;
+          }
+          .about-section .what-doing .upper .one{
+                    height: auto;
+                    width: auto;
+                    padding: 1.4vw;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+          }
+          .about-section .what-doing .upper .two{
+                    height: auto;
+                    width: auto;
+                    padding: 1.4vw;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+          }
+          .about-section .what-doing .upper .one .right{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+          }
+          .about-section .what-doing .upper .two .right{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+          }
+          /* {{{{{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}}}} */
+
+          .about-section .what-doing .bottom .one{
+                    height: auto;
+                    width: auto;
+                    padding: 1.4vw;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+          }
+          .about-section .what-doing .bottom .two{
+                    height: auto;
+                    width: auto;
+                    padding: 1.4vw;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+          }
+          .about-section .what-doing .bottom .one .right{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+          }
+          .about-section .what-doing .bottom .two .right{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+          }
+
+          /* {{{{{{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}}}}} */
+          .about-section .what-doing .upper .one img{
+                    height: 45px;
+                  }
+                  .about-section .what-doing .upper .one .right h1{
+                    font-size: 2.2vw;
+                  }
+                  .about-section .what-doing .upper .one .right p{
+                    font-size: 2vw;
+                  }
+                  .about-section .what-doing .upper .two{
+                    height: auto;
+                    width: auto;
+                    padding: 1.4vw;
+                    display: flex;
+                    justify-content: center;
+          }
+          .about-section .what-doing .upper .two img{
+                    height: 45px;
+                  }
+                  .about-section .what-doing .upper .two .right h1{
+                    font-size: 2.2vw;
+                  }
+                  .about-section .what-doing .upper .two .right p{
+                    font-size: 2vw;
+                  }
+                    /* {{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}} */
+
+                    .about-section .what-doing .bottom{
+                              display: flex;
+                              flex-direction: column;
+                    }
+                    .about-section .what-doing .bottom .one{
+                              height: auto;
+                              width: auto;
+                              padding: 1.4vw;
+                              display: flex;
+                              justify-content: center;
+                    }
+                    .about-section .what-doing .bottom .one img{
+                              height: 45px;
+                            }
+                            .about-section .what-doing .bottom .one .right h1{
+                              font-size: 2.2vw;
+                            }
+                            .about-section .what-doing .bottom .one .right p{
+                              font-size: 2vw;
+                            }
+                            .about-section .what-doing .bottom .two{
+                              height: auto;
+                              width: auto;
+                              padding: 1.4vw;
+                              display: flex;
+                              justify-content: center;
+                    }
+                    .about-section .what-doing .bottom .two img{
+                              height: 45px;
+                            }
+                            .about-section .what-doing .bottom .two .right h1{
+                              font-size: 2.2vw;
+                            }
+                            .about-section .what-doing .bottom .two .right p{
+                              font-size: 2vw;
+                            }
+                            .resume-section{
+                              transition: .5s;
+                              margin: .1vw;
+                              margin-top: 10vw;
+                              height: auto;
+                              width: 90%;
+                            }
+                            .resume-section .content  .school h6{
+                              font-size: 1.9vw;
+                            }
+                            .project-section{
+                              transition: .5s;
+                              margin: .1vw;
+                              margin-top: 10vw;
+                              height: auto;
+                              width: 90%;
+                            }
+                            .project-section .buttons a{
+                              font-size: 1.8vw;
+                            }
+                            .project-section .content-container .one img{
+                              height: 30vh;
+                            }
+                            .project-section .content-container .one h3{
+                              font-size: 4vw;
+                            }
+                            .project-section .content-container .one p{
+                              font-size: 2vw;
+                            }
+                            .skills{
+                              transition: .5s;
+                              margin: .1vw;
+                              margin-top: 10vw;
+                              height: auto;
+                              width: 90%;
+                            }
+                            .skills li h3{
+                              font-size: 2.3vw;
+                            }
+                            .contact-section{
+                              transition: .5s;
+                              margin: .1vw;
+                              margin-top: 10vw;
+                              height: auto;
+                              width: 90%;
+                            }
+                            .contact-section .forms .name{
+                              display: flex;
+                              flex-direction: column;
+                            }
+                            .contact-section .forms .name input{
+                              font-size: 2vw;
+                            }
+                            .contact-section .forms .message{
+                              margin-top: 15vh;
+                            }
+                            .contact-section button{
+                              height: 6vh;
+                              width: 15vw;
+                              margin-left: 2vw;
+                            }
+                            .contact-section .social-media{
+                              margin-top: 8vh;
+                            }
+                            .contact-section .social-media a img{
+                              height: 15px;
+                            }
+                            .contact-section .social-media a{
+                              padding: 1.3vw;
+                            }
+                            .contact-section .footer p{
+                              font-size: 1.3vw;
+                            }
+                            .contact-section .footer .name{
+                              font-size: 1.7vw;
+                            }
+                           
+}
