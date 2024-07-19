@@ -515,7 +515,8 @@ nav bar
 }
 .resume-section a:hover{
   background: #E5C567;
-  color: #121212;
+  color: #000;
+  transition: .5s;
   
 }
 
