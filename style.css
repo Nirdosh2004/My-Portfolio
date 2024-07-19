@@ -13,6 +13,7 @@ body{
           background: #1B1B1B;
           /* background: #fafafa; */
           scroll-behavior: smooth;
+          /* cursor: none; */
 }
 *::selection{
   background: #E5C567;
@@ -145,6 +146,9 @@ nav bar
           margin-top: 2vw;
           border: 1.7px solid #383838;
           padding:0 4px;
+}
+.hero-section .upper .texts button:hover{
+  
 }
 .hero-section .middle .up{
           display: flex;
@@ -563,12 +567,16 @@ nav bar
 }
 .project-section .content-container{
   margin-top: 2vw;
+  width: auto;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 .project-section .content-container .one{
   height: auto;
   width: auto;
   background: #222224;
-  border: 1px solid #383838;
+  border: 1px solid #777778;
   border-radius: 10px;
   padding: 1vw;
   margin-top: 2vw;
@@ -584,16 +592,23 @@ nav bar
 }
 .project-section .content-container .one a{
   color: #E5C567;
-  font-weight: 400;
-  font-size: 1.5vw;
+  font-weight: 300;
+  font-size: 1.3vw;
+  /* letter-spacing: .5px; */
   margin-left: .5vw;
+  opacity: .9;
 
+}
+.project-section .content-container .one a:hover{
+  opacity: 1;
+  transform: scale(1.1);
+  transition: .3s;
 }
 .project-section .content-container .one p{
   color: #fafafa;
   font-size: 1vw;
   font-weight: 400;
-  margin-top: 1vw;
+  margin-top: .5vw;
 }
 
 /* {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
@@ -614,8 +629,15 @@ nav bar
   height: auto;
   width: 70%;
   padding: 2rem;
+  
   /* box-shadow:  0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22); */
 }
+/* .skills .bars{
+  width: auto;
+  height: 80vh;
+  overflow: hidden;
+  overflow-y: scroll;
+} */
 .skills .heading{
   color: #fafafa;
   font-size: 5vh;
@@ -1084,3 +1106,11 @@ font-size: 1vw;
     transform: translateY(0);
   }
 }
+
+/* {{{{{{{{{{{{{{{{{{{{
+}}}}}}}}}}}}}}}}}}
+{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+  [[[[[[[[[[[[[[[]]]]]]]]]]]]]]]
+}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+}}}}}}}}}}}}}}}}}}}} */
+

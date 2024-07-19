@@ -6,15 +6,17 @@
 
 
 function sendMail(){
-          alert("Sorry! Currently its under maintenace by Nirdosh Kushwaha");
-          // var params = {
-          //           from_name: document.getElementById("fullName").value,
-          //           email_id : document.getElementById("email_id").value,
-          //           message : document.getElementById("message").value,
-          //       }
-          //       emailjs.send('0HbJPUy7TLP7RnrtP','template_fcvcmft', params).then(function(response) {
-          //          alert('SUCCESS!', response.status, response.text);
-          //       }, function(err) {
-          //          console.log('FAILED...', err);
-          //       });
+          var templateParams = {
+                    my_name: document.getElementById("my_name").value,
+                    email_id: document.getElementById("email_id").value,
+                    message:document.getElementById("message").value,
+                    
+                };
+                
+                emailjs.send("service_a21yug9","template_fcvcmft", templateParams)
+                    .then(function(response) {
+                      alert("Email Send successfully. Thankyou!");
+                    }, function(err) {
+                       alert('FAILED... to sent . Try again!');
+                    });
 }
