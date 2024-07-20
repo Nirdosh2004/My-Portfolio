@@ -148,8 +148,10 @@ nav bar
           padding:0 4px;
 }
 .hero-section .upper .texts button:hover{
-  
+  opacity: .8;
 }
+
+
 .hero-section .middle .up{
           display: flex;
           justify-content: start;
@@ -264,6 +266,7 @@ nav bar
 
 
 .about-section{
+  
   margin: 10vh 0 0 15vw;
   background: #1E1E1F;
   border-radius: 15px;
@@ -517,7 +520,7 @@ nav bar
   background: #E5C567;
   color: #000;
   transition: .5s;
-  
+
 }
 
 /* {{{{{{{{{{{{{{{{{{{
