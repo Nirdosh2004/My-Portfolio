@@ -8,7 +8,7 @@ Welcome to the repository for my personal portfolio website! This project showca
 
 ## Demo
 
-Check out the live demo of my portfolio website [here](https://wonderful-kulfi-a80053.netlify.app/).
+Check out the live demo of my portfolio website [here](https://calm-kitsune-ee5836.netlify.app/).
 
 ## Features
 
